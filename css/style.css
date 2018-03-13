@@ -1,14 +1,12 @@
-@media only screen and (max-width: 800px) {
-
 main {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: #C5DAC1;
-  width: 99%;
+  width: 451px;
 }
 
 wrapper {
   border: solid 10px black;
-  height: 100%;
+  height: 400px;
   
 }
 header {
@@ -16,7 +14,7 @@ header {
   background-color: #3F7A5F;
   text-align: center;
   height: 99%;
-  width: 98.5%;
+  width: 447px;
 }
 
 input {
@@ -55,7 +53,6 @@ p {
 #tip-list div {
   height: 115px;
   padding: 10px;
-  margin-left: 1px;
 }
 
 #ten {
@@ -114,6 +111,4 @@ button:hover {
   50% { transform: translate(-1px, 2px) rotate(-1deg); }
   70% { transform: translate(3px, 1px) rotate(-1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
-}
-
 }
