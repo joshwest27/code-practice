@@ -1,20 +1,22 @@
+@media only screen and (max-width: 800px) {
+
 main {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: #C5DAC1;
-  width: 505px;
+  width: 99%;
 }
 
 wrapper {
   border: solid 10px black;
-  height: 600px;
+  height: 100%;
   
 }
 header {
   border: solid 2px black;
   background-color: #3F7A5F;
   text-align: center;
-  height: 120px;
-  width: 501px;
+  height: 100%;
+  width: 99%;
 }
 
 input {
@@ -111,4 +113,6 @@ button:hover {
   50% { transform: translate(-1px, 2px) rotate(-1deg); }
   70% { transform: translate(3px, 1px) rotate(-1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
+}
+
 }
