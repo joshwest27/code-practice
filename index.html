@@ -6,13 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Calculator</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/palette.scss">
 </head>
 <body>
   <div id="wrapper">
     <header>
       <div id="page-banner">
         <h1>Tip Calculator</h1>
-        <input id="userInput" type="number" placeholder="Total bill" width=300 height=50>
+        <input id="userInput" type="number" placeholder="Enter Total bill" width=300 height=50/>
+        <input type="button" onclick="myReset()" id="resetBtn" value="Clear"/>
       </div>
     </header>
   <div id="tip-list">
@@ -43,8 +45,8 @@
        </div>
         
        <div id="custom">
-        <h3>Enter any percentage</h3>
-        <p>The total with tip will be: </p>
+        <h3>Enter any percentage <input id="customTip" type="number" placeholder="%" width=50 height=25/></h3>
+        <p id="result5">The total with tip will be: </p>
         <button id="b5" type="button" onclick="anyPercent()">Calculate</button>
        </div>
         
