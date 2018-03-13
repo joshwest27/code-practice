@@ -15,8 +15,8 @@ header {
   border: solid 2px black;
   background-color: #3F7A5F;
   text-align: center;
-  height: 100%;
-  width: 99%;
+  height: 99%;
+  width: 98.5%;
 }
 
 input {
@@ -55,6 +55,7 @@ p {
 #tip-list div {
   height: 115px;
   padding: 10px;
+  margin-left: 1px;
 }
 
 #ten {
