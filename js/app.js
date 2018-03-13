@@ -5,7 +5,7 @@ function myReset() {
 }
 
 function tenPercent() {
-  document.getElementById('b1').style.background = '#3F7A5F';
+  document.getElementById('b1').style.background = '#8ED081';
   let bill = parseInt(document.getElementById('userInput').value);
   let tipVal = (bill * 10 / 100);
   let newBill = ((Number(bill) + Number(tipVal))).toFixed(2);
@@ -13,7 +13,7 @@ function tenPercent() {
 }
 
 function fifteenPercent() {
-  document.getElementById('b2').style.background = '#3F7A5F';
+  document.getElementById('b2').style.background = '#8ED081';
   let bill = parseInt(document.getElementById('userInput').value);
   let tipVal = (bill * 15 / 100);
   let newBill = ((Number(bill) + Number(tipVal))).toFixed(2);
@@ -21,7 +21,7 @@ function fifteenPercent() {
 }
 
 function twentyPercent() {
-  document.getElementById('b3').style.background = '#3F7A5F';
+  document.getElementById('b3').style.background = '#8ED081';
   let bill = parseInt(document.getElementById('userInput').value);
   let tipVal = (bill * 20 / 100);
   let newBill = ((Number(bill) + Number(tipVal))).toFixed(2);
@@ -29,7 +29,7 @@ function twentyPercent() {
 }
 
 function twentyFivePercent() {
-  document.getElementById('b4').style.background = '#3F7A5F';
+  document.getElementById('b4').style.background = '#8ED081';
   let bill = parseInt(document.getElementById('userInput').value);
   let tipVal = (bill * 25 / 100);
   let newBill = ((Number(bill) + Number(tipVal))).toFixed(2);
@@ -37,7 +37,7 @@ function twentyFivePercent() {
 }
 
 function anyPercent() {
-  document.getElementById('b5').style.background = '#3F7A5F';
+  document.getElementById('b5').style.background = '#8ED081';
   let bill = parseInt(document.getElementById('userInput').value);
   let tip = parseInt(document.getElementById('customTip').value);
   let tipVal = (bill * tip / 100);
