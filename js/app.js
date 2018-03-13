@@ -1,5 +1,7 @@
 'use strict';
 
+let audio = new Audio('sounds/cash.mp3');
+
 function myReset() {
   location.reload();
 }
@@ -9,8 +11,9 @@ function tenPercent() {
   let bill = parseInt(document.getElementById('userInput').value);
   let tipVal = (bill * 10 / 100);
   let newBill = ((Number(bill) + Number(tipVal))).toFixed(2);
-  document.getElementById('tipOne').innerHTML='Ten Percent is $' + tipVal + '';
+  document.getElementById('tipOne').innerHTML='Ten Percent is $' + Number(tipVal).toFixed(2) + '';
   document.getElementById('result1').innerHTML='The total with tip will be $' + newBill + '';
+  audio.play();
 }
 
 
@@ -19,8 +22,9 @@ function fifteenPercent() {
   let bill = parseInt(document.getElementById('userInput').value);
   let tipVal = (bill * 15 / 100);
   let newBill = ((Number(bill) + Number(tipVal))).toFixed(2);
-  document.getElementById('tipTwo').innerHTML='Fifteen Percent is $' + tipVal + '';
+  document.getElementById('tipTwo').innerHTML='Fifteen Percent is $' + Number(tipVal).toFixed(2) + '';
   document.getElementById('result2').innerHTML='The total with tip will be $' + newBill + '';
+  audio.play();
 }
 
 function twentyPercent() {
@@ -28,8 +32,9 @@ function twentyPercent() {
   let bill = parseInt(document.getElementById('userInput').value);
   let tipVal = (bill * 20 / 100);
   let newBill = ((Number(bill) + Number(tipVal))).toFixed(2);
-  document.getElementById('tipThree').innerHTML='Twenty Percent is $' + tipVal + '';
+  document.getElementById('tipThree').innerHTML='Twenty Percent is $' + Number(tipVal).toFixed(2) + '';
   document.getElementById('result3').innerHTML='The total with tip will be $' + newBill + '';
+  audio.play();
 }
 
 function twentyFivePercent() {
@@ -37,8 +42,9 @@ function twentyFivePercent() {
   let bill = parseInt(document.getElementById('userInput').value);
   let tipVal = (bill * 25 / 100);
   let newBill = ((Number(bill) + Number(tipVal))).toFixed(2);
-  document.getElementById('tipFour').innerHTML='Twenty Five Percent is $' + tipVal + '';
+  document.getElementById('tipFour').innerHTML='Twenty Five Percent is $' + Number(tipVal).toFixed(2) + '';
   document.getElementById('result4').innerHTML='The total with tip will be $' + newBill + '';
+  audio.play();
 }
 
 function anyPercent() {
@@ -48,4 +54,5 @@ function anyPercent() {
   let tipVal = (bill * tip / 100);
   let newBill = ((Number(bill) + Number(tipVal))).toFixed(2);
   document.getElementById('result5').innerHTML='The total with tip will be $' + newBill + '';
+  audio.play();
 }
