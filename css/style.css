@@ -1,3 +1,63 @@
 body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 500px;
+}
+
+wrapper {
+  border: solid 5px black;
+  height: 600px;
+  
+}
+header {
   border: solid 2px black;
+  background-color: green;
+  text-align: center;
+  height: 120px;
+}
+
+input {
+  border: solid 2px black;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 15%;
+}
+
+h3 {
+  margin: 5px;
+}
+
+p {
+  width: 50%;
+  margin: 10px;
+}
+
+#tip-list div {
+  height: 100px;
+  padding: 10px;
+}
+
+#ten {
+  border: solid 2px black;
+}
+
+#fifteen {
+  border: solid 2px black;
+}
+
+#twenty {
+  border: solid 2px black;
+}
+
+#twentyFive {
+  border: solid 2px black;
+}
+
+#custom {
+  border: solid 2px black;
+  border-bottom: solid 4px black;
+}
+
+button {
+  float: right;
+  padding: 10px;
 }
