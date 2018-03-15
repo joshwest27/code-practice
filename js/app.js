@@ -1,18 +1,23 @@
+// This is a basic tip calculator. User can calculate preset tip percentages or they can calculate any percentage. 
+
 'use strict';
 
+// Sound files
 let audio = new Audio('sounds/cash.mp3');
 let reset = new Audio('sounds/ping.mp3');
 
+// Reset button refreshes the application
 function myReset() {
   reset.play();
   location.reload();
-  
 }
 
+// Function to store total bill
 function getBill() {
   return parseInt(document.getElementById('userInput').value);
 }
 
+// Calculates 10% tip and displays total bill with tip. 
 function tenPercent() {
   document.getElementById('b1').style.background = '#8ED081';
   const bill = getBill();
@@ -23,7 +28,7 @@ function tenPercent() {
   audio.play();
 }
 
-
+// Calculates 15% tip and displays total bill with tip. 
 function fifteenPercent() {
   document.getElementById('b2').style.background = '#8ED081';
   const bill = getBill();
@@ -34,6 +39,7 @@ function fifteenPercent() {
   audio.play();
 }
 
+// Calculates 20% tip and displays total bill with tip. 
 function twentyPercent() {
   document.getElementById('b3').style.background = '#8ED081';
   const bill = getBill();
@@ -44,6 +50,7 @@ function twentyPercent() {
   audio.play();
 }
 
+// Calculates 25% tip and displays total bill with tip. 
 function twentyFivePercent() {
   document.getElementById('b4').style.background = '#8ED081';
   const bill = getBill();
@@ -54,6 +61,7 @@ function twentyFivePercent() {
   audio.play();
 }
 
+// Calculates any tip percentage and displays total bill with tip. 
 function anyPercent() {
   document.getElementById('b5').style.background = '#8ED081';
   const bill = getBill();
