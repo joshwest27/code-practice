@@ -1,9 +1,12 @@
 'use strict';
 
 let audio = new Audio('sounds/cash.mp3');
+let reset = new Audio('sounds/ping.mp3')
 
 function myReset() {
+  reset.play();
   location.reload();
+  
 }
 
 function getBill() {
